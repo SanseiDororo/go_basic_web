@@ -1,61 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>This is home page</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
-            repudiandae repellendus quia exercitationem molestiae nulla omnis
-            rem dignissimos dolor nemo? Sit incidunt explicabo ipsum iste nemo
-            nam, vel tenetur repellat. Dicta, ab suscipit corrupti cum sint sed
-            ea ex iste error rem laborum eius, ipsa, totam veritatis beatae
-            consequatur pariatur! Doloribus ab necessitatibus soluta dolor totam
-            eum, deleniti quasi aspernatur! Consectetur dolores est ea nesciunt
-            assumenda sunt voluptas commodi officiis? Aliquid inventore officiis
-            dolorum debitis voluptatem aliquam facilis, exercitationem
-            voluptate! Deserunt ducimus velit, quaerat illo autem iste neque
-            quibusdam eum. Neque eaque, esse hic laudantium quae dolore et
-            dignissimos accusantium, illo soluta vel facilis cupiditate natus.
-            Soluta, vero maxime? Dolorem ut molestias numquam expedita explicabo
-            similique atque, perferendis at deleniti. Perspiciatis explicabo
-            quidem dignissimos iste voluptatem fugit necessitatibus dolor est
-            rem sapiente placeat excepturi labore maxime, impedit maiores
-            nostrum dolores amet delectus dolore, ea corporis aperiam! In
-            voluptatum dolorem excepturi. Soluta dolorum omnis animi quibusdam
-            nisi nemo dolorem in iure, repellendus esse temporibus eligendi
-            quae. Omnis modi tenetur architecto labore? Nisi officiis omnis
-            molestias beatae exercitationem asperiores possimus praesentium
-            expedita? Repudiandae sunt ipsam laboriosam! Deleniti exercitationem
-            natus nobis animi harum rem alias cumque nisi dolor quod minima
-            delectus iusto incidunt fugit deserunt nulla voluptatibus
-            repudiandae tempora consequuntur, quas commodi corrupti. Aspernatur
-            unde ab modi repudiandae culpa fugiat beatae cumque, ea quisquam
-            voluptate nesciunt nam blanditiis laudantium dolorem tenetur eaque
-            atque? Dolor a animi rem sunt nesciunt sed, accusantium expedita
-            ipsa! Accusantium adipisci, sequi neque vero odit dicta in molestiae
-            tempora fugiat aspernatur quam. Laborum, aliquid illo dolor unde
-            nesciunt nostrum doloribus, neque autem, exercitationem magni
-            repudiandae! Sapiente, debitis voluptatem. Repellat. Placeat
-            repellat optio eligendi inventore ipsa fuga vero itaque, delectus
-            tempora? Accusantium, ab optio dicta unde necessitatibus, est porro
-            praesentium quasi rem dolor facere debitis reprehenderit consectetur
-            provident dolores voluptatum?
-          </p>
-        </div>
-      </div>
+{{template "base" .}}
+{{define "content"}}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>This is home page</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
+        repudiandae repellendus quia exercitationem molestiae nulla omnis rem
+        dignissimos dolor nemo? Sit incidunt explicabo ipsum iste nemo nam, vel
+        tenetur repellat. Dicta, ab suscipit corrupti cum sint sed ea ex iste
+        error rem laborum eius, ipsa, totam veritatis beatae consequatur
+        pariatur! Doloribus ab necessitatibus soluta dolor totam eum, deleniti
+        quasi aspernatur! Consectetur dolores est ea nesciunt assumenda sunt
+        voluptas commodi officiis? Aliquid inventore officiis dolorum debitis
+        voluptatem aliquam facilis, exercitationem voluptate! Deserunt ducimus
+        velit, quaerat illo autem iste neque
+      </p>
     </div>
-  </body>
-</html>
+  </div>
+</div>
+{{ end }}
